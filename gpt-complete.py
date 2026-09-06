@@ -1,3 +1,4 @@
+# Credit: https://github.com/karpathy/ng-video-lecture
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
