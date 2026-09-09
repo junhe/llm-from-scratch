@@ -11,7 +11,8 @@ encode = lambda s: [stoi[c] for c in s] # encoder: take a string, output a list 
 # FIXME: implement decode function
 # decode = 
 
-print(chars)
-print(vocab_size)
-print(encode("hii there"))
-# print(decode(encode("hii there")))
+print(f"chars: {chars}")
+print(f"stoi: {stoi}")
+print(f"vocab_size: {vocab_size}")
+print(f"encode('hii there'): {encode('hii there')}")
+# print(f"decode(encode('hii there')): {decode(encode('hii there'))}")
