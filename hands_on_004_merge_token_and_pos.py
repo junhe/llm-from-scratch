@@ -21,7 +21,7 @@ pos_emb = torch.tensor([
 
 # FIXME:
 # Add the two tensors. PyTorch broadcasts pos_emb from (8, 4) to (3, 8, 4).
-x = tok_emb + pos_emb
+x = ...
 
 print("tok_emb shape:", tok_emb.shape)
 print("pos_emb shape:", pos_emb.shape)
